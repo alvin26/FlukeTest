@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\RS232Connecter.cs" />
-    <Compile Include="Models\SocketConnecter.cs" />
+    <Compile Include="Models\MySocketConnecter.cs" />
     <Compile Include="練習\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +102,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="設備連接\frmShowTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="設備連接\frmShowTemp.Designer.cs">
+      <DependentUpon>frmShowTemp.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="練習\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +126,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="設備連接\frmShowTemp.resx">
+      <DependentUpon>frmShowTemp.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="FlukeTest_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">

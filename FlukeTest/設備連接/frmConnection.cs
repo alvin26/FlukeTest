@@ -64,7 +64,7 @@ namespace FlukeTest
 
 
 
-                SocketConnecter socket_test = new SocketConnecter();
+                MySocketConnecter socket_test = new MySocketConnecter();
                 socket_test.IP = txtIP.Text.Trim();
                 socket_test.Port = int.Parse(txtPort.Text.Trim());
                 var dec_name = "";
@@ -454,8 +454,15 @@ namespace FlukeTest
         /// <param name="e"></param>
         private void btnOK_Click(object sender, EventArgs e)
         {
+            try
+            {
 
-
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
             Close();
         }
 

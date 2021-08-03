@@ -70,20 +70,18 @@ namespace FlukeTest
             this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(this.btnUsb);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 18);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 12);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(849, 156);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(566, 104);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(4, 4);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(273, 147);
+            this.button1.Size = new System.Drawing.Size(182, 98);
             this.button1.TabIndex = 1;
             this.button1.Text = "乙太網";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -94,10 +92,9 @@ namespace FlukeTest
             // 
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(285, 4);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(191, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(273, 147);
+            this.button2.Size = new System.Drawing.Size(182, 98);
             this.button2.TabIndex = 2;
             this.button2.Text = "RS232/RS485";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -108,10 +105,9 @@ namespace FlukeTest
             // 
             this.btnUsb.Image = ((System.Drawing.Image)(resources.GetObject("btnUsb.Image")));
             this.btnUsb.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnUsb.Location = new System.Drawing.Point(566, 4);
-            this.btnUsb.Margin = new System.Windows.Forms.Padding(4);
+            this.btnUsb.Location = new System.Drawing.Point(379, 3);
             this.btnUsb.Name = "btnUsb";
-            this.btnUsb.Size = new System.Drawing.Size(273, 147);
+            this.btnUsb.Size = new System.Drawing.Size(182, 98);
             this.btnUsb.TabIndex = 3;
             this.btnUsb.Text = "USB";
             this.btnUsb.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -123,9 +119,8 @@ namespace FlukeTest
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 18);
+            this.label1.Size = new System.Drawing.Size(80, 12);
             this.label1.TabIndex = 4;
             this.label1.Text = "選擇連接類型:";
             // 
@@ -134,22 +129,20 @@ namespace FlukeTest
             this.tabConn.Controls.Add(this.tabEth);
             this.tabConn.Controls.Add(this.tabRS232);
             this.tabConn.Controls.Add(this.tabUSB);
-            this.tabConn.Location = new System.Drawing.Point(0, 174);
-            this.tabConn.Margin = new System.Windows.Forms.Padding(4);
+            this.tabConn.Location = new System.Drawing.Point(0, 116);
             this.tabConn.Name = "tabConn";
             this.tabConn.SelectedIndex = 0;
-            this.tabConn.Size = new System.Drawing.Size(849, 538);
+            this.tabConn.Size = new System.Drawing.Size(566, 359);
             this.tabConn.TabIndex = 5;
             this.tabConn.SelectedIndexChanged += new System.EventHandler(this.tabConn_SelectedIndexChanged);
             // 
             // tabEth
             // 
             this.tabEth.Controls.Add(this.tableLayoutPanel1);
-            this.tabEth.Location = new System.Drawing.Point(4, 28);
-            this.tabEth.Margin = new System.Windows.Forms.Padding(4);
+            this.tabEth.Location = new System.Drawing.Point(4, 22);
             this.tabEth.Name = "tabEth";
-            this.tabEth.Padding = new System.Windows.Forms.Padding(4);
-            this.tabEth.Size = new System.Drawing.Size(841, 506);
+            this.tabEth.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabEth.Size = new System.Drawing.Size(558, 333);
             this.tabEth.TabIndex = 0;
             this.tabEth.Text = "乙太網";
             this.tabEth.UseVisualStyleBackColor = true;
@@ -157,7 +150,7 @@ namespace FlukeTest
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.txtIP, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
@@ -167,24 +160,22 @@ namespace FlukeTest
             this.tableLayoutPanel1.Controls.Add(this.txtPort, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.btnTestConn, 1, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 4);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(833, 498);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(552, 327);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // txtIP
             // 
             this.txtIP.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtIP.Location = new System.Drawing.Point(127, 75);
-            this.txtIP.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIP.Location = new System.Drawing.Point(85, 49);
             this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(514, 29);
+            this.txtIP.Size = new System.Drawing.Size(344, 22);
             this.txtIP.TabIndex = 4;
             this.txtIP.Text = "192.168.42.132";
             // 
@@ -192,10 +183,9 @@ namespace FlukeTest
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 21);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(3, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 18);
+            this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 0;
             this.label2.Text = "設備名稱";
             // 
@@ -203,10 +193,9 @@ namespace FlukeTest
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 81);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(3, 54);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 18);
+            this.label3.Size = new System.Drawing.Size(15, 12);
             this.label3.TabIndex = 1;
             this.label3.Text = "IP";
             // 
@@ -214,35 +203,32 @@ namespace FlukeTest
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 141);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(3, 94);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 18);
+            this.label4.Size = new System.Drawing.Size(24, 12);
             this.label4.TabIndex = 2;
             this.label4.Text = "Port";
             // 
             // txtDeviceName
             // 
             this.txtDeviceName.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtDeviceName.Location = new System.Drawing.Point(127, 15);
-            this.txtDeviceName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDeviceName.Location = new System.Drawing.Point(85, 9);
             this.txtDeviceName.Name = "txtDeviceName";
             this.txtDeviceName.ReadOnly = true;
-            this.txtDeviceName.Size = new System.Drawing.Size(514, 29);
+            this.txtDeviceName.Size = new System.Drawing.Size(344, 22);
             this.txtDeviceName.TabIndex = 3;
             // 
             // txtPort
             // 
             this.txtPort.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtPort.Location = new System.Drawing.Point(127, 135);
-            this.txtPort.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPort.Location = new System.Drawing.Point(85, 89);
             this.txtPort.Maximum = new decimal(new int[] {
             65536,
             0,
             0,
             0});
             this.txtPort.Name = "txtPort";
-            this.txtPort.Size = new System.Drawing.Size(180, 29);
+            this.txtPort.Size = new System.Drawing.Size(120, 22);
             this.txtPort.TabIndex = 5;
             this.txtPort.Value = new decimal(new int[] {
             6363,
@@ -254,10 +240,9 @@ namespace FlukeTest
             // 
             this.btnTestConn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTestConn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnTestConn.Location = new System.Drawing.Point(616, 184);
-            this.btnTestConn.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTestConn.Location = new System.Drawing.Point(407, 123);
             this.btnTestConn.Name = "btnTestConn";
-            this.btnTestConn.Size = new System.Drawing.Size(213, 46);
+            this.btnTestConn.Size = new System.Drawing.Size(142, 31);
             this.btnTestConn.TabIndex = 6;
             this.btnTestConn.Text = "Test Connection";
             this.btnTestConn.UseVisualStyleBackColor = false;
@@ -268,11 +253,10 @@ namespace FlukeTest
             this.tabRS232.Controls.Add(this.TxtRS232Msg);
             this.tabRS232.Controls.Add(this.lbxComs);
             this.tabRS232.Controls.Add(this.button3);
-            this.tabRS232.Location = new System.Drawing.Point(4, 28);
-            this.tabRS232.Margin = new System.Windows.Forms.Padding(4);
+            this.tabRS232.Location = new System.Drawing.Point(4, 22);
             this.tabRS232.Name = "tabRS232";
-            this.tabRS232.Padding = new System.Windows.Forms.Padding(4);
-            this.tabRS232.Size = new System.Drawing.Size(841, 506);
+            this.tabRS232.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabRS232.Size = new System.Drawing.Size(558, 333);
             this.tabRS232.TabIndex = 1;
             this.tabRS232.Text = "RS232/RS485";
             this.tabRS232.UseVisualStyleBackColor = true;
@@ -280,32 +264,29 @@ namespace FlukeTest
             // TxtRS232Msg
             // 
             this.TxtRS232Msg.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TxtRS232Msg.Location = new System.Drawing.Point(4, 178);
-            this.TxtRS232Msg.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtRS232Msg.Location = new System.Drawing.Point(3, 120);
             this.TxtRS232Msg.Multiline = true;
             this.TxtRS232Msg.Name = "TxtRS232Msg";
-            this.TxtRS232Msg.Size = new System.Drawing.Size(833, 188);
+            this.TxtRS232Msg.Size = new System.Drawing.Size(552, 127);
             this.TxtRS232Msg.TabIndex = 2;
             // 
             // lbxComs
             // 
             this.lbxComs.Dock = System.Windows.Forms.DockStyle.Top;
             this.lbxComs.FormattingEnabled = true;
-            this.lbxComs.ItemHeight = 18;
-            this.lbxComs.Location = new System.Drawing.Point(4, 48);
-            this.lbxComs.Margin = new System.Windows.Forms.Padding(4);
+            this.lbxComs.ItemHeight = 12;
+            this.lbxComs.Location = new System.Drawing.Point(3, 32);
             this.lbxComs.Name = "lbxComs";
-            this.lbxComs.Size = new System.Drawing.Size(833, 130);
+            this.lbxComs.Size = new System.Drawing.Size(552, 88);
             this.lbxComs.TabIndex = 0;
             this.lbxComs.SelectedIndexChanged += new System.EventHandler(this.lbxComs_SelectedIndexChanged);
             // 
             // button3
             // 
             this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.Location = new System.Drawing.Point(4, 4);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(3, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(833, 44);
+            this.button3.Size = new System.Drawing.Size(552, 29);
             this.button3.TabIndex = 1;
             this.button3.Text = "重新搜尋序列埠 COM Port";
             this.button3.UseVisualStyleBackColor = true;
@@ -316,11 +297,10 @@ namespace FlukeTest
             this.tabUSB.Controls.Add(this.TxtUsbMsg);
             this.tabUSB.Controls.Add(this.lbxUsb);
             this.tabUSB.Controls.Add(this.button5);
-            this.tabUSB.Location = new System.Drawing.Point(4, 28);
-            this.tabUSB.Margin = new System.Windows.Forms.Padding(4);
+            this.tabUSB.Location = new System.Drawing.Point(4, 22);
             this.tabUSB.Name = "tabUSB";
-            this.tabUSB.Padding = new System.Windows.Forms.Padding(4);
-            this.tabUSB.Size = new System.Drawing.Size(841, 506);
+            this.tabUSB.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabUSB.Size = new System.Drawing.Size(558, 333);
             this.tabUSB.TabIndex = 2;
             this.tabUSB.Text = "USB";
             this.tabUSB.UseVisualStyleBackColor = true;
@@ -328,32 +308,29 @@ namespace FlukeTest
             // TxtUsbMsg
             // 
             this.TxtUsbMsg.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TxtUsbMsg.Location = new System.Drawing.Point(4, 178);
-            this.TxtUsbMsg.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtUsbMsg.Location = new System.Drawing.Point(3, 120);
             this.TxtUsbMsg.Multiline = true;
             this.TxtUsbMsg.Name = "TxtUsbMsg";
-            this.TxtUsbMsg.Size = new System.Drawing.Size(833, 188);
+            this.TxtUsbMsg.Size = new System.Drawing.Size(552, 127);
             this.TxtUsbMsg.TabIndex = 5;
             // 
             // lbxUsb
             // 
             this.lbxUsb.Dock = System.Windows.Forms.DockStyle.Top;
             this.lbxUsb.FormattingEnabled = true;
-            this.lbxUsb.ItemHeight = 18;
-            this.lbxUsb.Location = new System.Drawing.Point(4, 48);
-            this.lbxUsb.Margin = new System.Windows.Forms.Padding(4);
+            this.lbxUsb.ItemHeight = 12;
+            this.lbxUsb.Location = new System.Drawing.Point(3, 32);
             this.lbxUsb.Name = "lbxUsb";
-            this.lbxUsb.Size = new System.Drawing.Size(833, 130);
+            this.lbxUsb.Size = new System.Drawing.Size(552, 88);
             this.lbxUsb.TabIndex = 3;
             this.lbxUsb.SelectedIndexChanged += new System.EventHandler(this.lbxUsb_SelectedIndexChanged);
             // 
             // button5
             // 
             this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.Location = new System.Drawing.Point(4, 4);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Location = new System.Drawing.Point(3, 3);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(833, 44);
+            this.button5.Size = new System.Drawing.Size(552, 29);
             this.button5.TabIndex = 4;
             this.button5.Text = "重新搜尋序列埠 COM Port";
             this.button5.UseVisualStyleBackColor = true;
@@ -361,10 +338,9 @@ namespace FlukeTest
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(718, 722);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Location = new System.Drawing.Point(479, 481);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(112, 34);
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "取消";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -373,10 +349,9 @@ namespace FlukeTest
             // btnOK
             // 
             this.btnOK.Enabled = false;
-            this.btnOK.Location = new System.Drawing.Point(597, 722);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(4);
+            this.btnOK.Location = new System.Drawing.Point(398, 481);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(112, 34);
+            this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 7;
             this.btnOK.Text = "確定";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -384,16 +359,15 @@ namespace FlukeTest
             // 
             // frmConnection
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(849, 774);
+            this.ClientSize = new System.Drawing.Size(566, 516);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.tabConn);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmConnection";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "連接設置";
