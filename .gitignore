@@ -1,3 +1,19 @@
 *.cache
 FlukeTest/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
 *.suo
+/FlukeTest-Publish/Application Files/FlukeTest_1_0_0_0/FlukeTest.application
+/FlukeTest-Publish/Application Files/FlukeTest_1_0_0_0/FlukeTest.exe.config.deploy
+/FlukeTest-Publish/Application Files/FlukeTest_1_0_0_0/FlukeTest.exe.deploy
+/FlukeTest-Publish/Application Files/FlukeTest_1_0_0_0/FlukeTest.exe.manifest
+/FlukeTest-Publish/FlukeTest.application
+/FlukeTest-Publish/setup.exe
+/FlukeTest/bin/Debug/FlukeTest.pdb
+/FlukeTest/obj/Debug/FlukeTest.Form1.resources
+/FlukeTest/obj/Debug/FlukeTest.Main.resources
+/FlukeTest/obj/Debug/FlukeTest.Properties.Resources.resources
+/FlukeTest/obj/Debug/FlukeTest.csproj.FileListAbsolute.txt
+/FlukeTest/obj/Debug/FlukeTest.exe
+/FlukeTest/obj/Debug/FlukeTest.frmConnection.resources
+/FlukeTest/obj/Debug/FlukeTest.pdb
+/FlukeTest/obj/Debug/FlukeTest.設備連接.frmShowTemp.resources
+/FlukeTest/*.user
